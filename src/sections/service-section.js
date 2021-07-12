@@ -12,7 +12,7 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
-import ModalVideo from "react-modal-video";
+// import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/service-thumb.png";
@@ -89,12 +89,12 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="dQw4w9WgXcQ"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </section>
   );
 }
