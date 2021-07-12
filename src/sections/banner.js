@@ -2,9 +2,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Button, Image } from "theme-ui";
-import BannerImg from "../assets/banner-thumb.png";
-import ShapeLeft from "../assets/shape-left.png";
-import ShapeRight from "../assets/shape-right.png";
 
 export default function Banner() {
   return (
@@ -21,7 +18,7 @@ export default function Banner() {
           <Button variant="primary">Explore</Button>
         </Box>
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
+          <Image src="/assets/shape-left.png" alt="banner" />
         </Box>
       </Container>
     </section>
@@ -42,7 +39,7 @@ const styles = {
       height: "100%",
       width: "100%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
+      backgroundImage: `url(/assets/shape-left.png)`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom left",
       backgroundSize: "36%",
@@ -55,7 +52,7 @@ const styles = {
       height: "100%",
       width: "100%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
+      backgroundImage: `url(/assets/shape-right.png)`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom right",
       backgroundSize: "32%",
