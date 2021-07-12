@@ -2,9 +2,9 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Button, Image } from "theme-ui";
-import BannerImg from "assets/banner-thumb.png";
-import ShapeLeft from "assets/shape-left.png";
-import ShapeRight from "assets/shape-right.png";
+import BannerImg from "../assets/banner-thumb.png";
+import ShapeLeft from "../assets/shape-left.png";
+import ShapeRight from "../assets/shape-right.png";
 
 export default function Banner() {
   return (
