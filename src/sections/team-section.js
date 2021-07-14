@@ -6,17 +6,15 @@ import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-import Member1 from "assets/team/member-1.png";
-import Member2 from "assets/team/member-2.png";
-import Member3 from "assets/team/member-3.png";
-import Member4 from "assets/team/member-4.png";
-import Member5 from "assets/team/member-5.png";
-import Member6 from "assets/team/member-6.png";
+
+
+
+
 
 const data = [
   {
     id: 1,
-    imgSrc: Member1,
+    imgSrc: "/assets/team/member-1.png",
     altText: "Saimon Harmer",
     title: "Saimon Harmer",
     designation: "CEO and Founder",
@@ -43,7 +41,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member2,
+    imgSrc: "/assets/team/member-2.png",
     altText: "Aaron Nunez",
     title: "Aaron Nunez",
     designation: "Founder",
@@ -70,7 +68,7 @@ const data = [
   },
   {
     id: 3,
-    imgSrc: Member3,
+    imgSrc: "/assets/team/member-3.png",
     altText: "Aaron Nunez",
     title: "Aaron Nunez",
     designation: "Web Designer",
@@ -97,7 +95,7 @@ const data = [
   },
   {
     id: 4,
-    imgSrc: Member4,
+    imgSrc: "/assets/team/member-4.png",
     altText: "Lina Jutila",
     title: "Lina Jutila",
     designation: "Web Developer",
@@ -124,7 +122,7 @@ const data = [
   },
   {
     id: 5,
-    imgSrc: Member5,
+    imgSrc: "/assets/team/member-5.png",
     altText: "Saimon Harmer",
     title: "Saimon Harmer",
     designation: "CEO and Founder",
@@ -151,7 +149,7 @@ const data = [
   },
   {
     id: 6,
-    imgSrc: Member6,
+    imgSrc: "/assets/team/member-6.png",
     altText: "Aaron Nunez",
     title: "Aaron Nunez",
     designation: "Web Designer",

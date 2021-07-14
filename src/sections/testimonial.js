@@ -6,10 +6,10 @@ import Rating from "components/rating";
 import ButtonGroup from "components/button-group";
 import Carousel from "react-multi-carousel";
 
-import Avatar1 from "assets/testimonial/avatar1.png";
-import Avatar2 from "assets/testimonial/avatar2.png";
-import Avatar3 from "assets/testimonial/avatar3.png";
-import Avatar4 from "assets/testimonial/avatar4.png";
+
+
+
+
 
 const data = [
   {
@@ -17,7 +17,7 @@ const data = [
     title: "Modern look & trending design",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar1,
+    avatar: "/assets/testimonial/avatar1.png",
     name: "Sylvia Plath",
     designation: "@sylvia.plath",
     review: 4,
@@ -27,7 +27,7 @@ const data = [
     title: "Design Quality & performance",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar2,
+    avatar: "/assets/testimonial/avatar2.png",
     name: "Franz Bardon",
     designation: "@franz.bardon",
     review: 5,
@@ -37,7 +37,7 @@ const data = [
     title: "Layout and organized layers",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar3,
+    avatar: "/assets/testimonial/avatar3.png",
     name: "Aleister Crowley",
     designation: "@aleister.crowley",
     review: 5,
@@ -47,7 +47,7 @@ const data = [
     title: "Modern look & trending design",
     description:
       "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-    avatar: Avatar4,
+    avatar: "/assets/testimonial/avatar4.png",
     name: "Frater Goya",
     designation: "@frater.goya",
     review: 4,

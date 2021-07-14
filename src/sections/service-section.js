@@ -16,11 +16,9 @@ import TextFeature from "components/text-feature";
 // import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
-import ServiceThumb from "assets/service-thumb.png";
-import shapePattern from "assets/shape-pattern1.png";
 
-import Smart from "assets/services/smart.svg";
-import Secure from "assets/services/secure.svg";
+
+
 
 const data = {
   subTitle: "our services",
@@ -28,7 +26,7 @@ const data = {
   features: [
     {
       id: 1,
-      imgSrc: Smart,
+      imgSrc: '/assets/services/smart.svg',
       altText: "Smart Features",
       title: "Smart Features",
       text:
@@ -36,7 +34,7 @@ const data = {
     },
     {
       id: 2,
-      imgSrc: Secure,
+      imgSrc: '/assets/services/secure.svg',
       altText: "Secure Contents",
       title: "Secure Contents",
       text:
@@ -57,7 +55,7 @@ export default function ServiceSection() {
     <section sx={{ variant: "section.services" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail" />
+          <Image src='/assets/service-thumb.png' alt="thumbnail" />
           <Button
             sx={styles.videoBtn}
             onClick={handleClick}
@@ -68,7 +66,7 @@ export default function ServiceSection() {
             </span>
           </Button>
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="shape" />
+            <Image src='/assets/shape-pattern1.png' alt="shape" />
           </Box>
         </Box>
         <Box sx={styles.contentBox}>
